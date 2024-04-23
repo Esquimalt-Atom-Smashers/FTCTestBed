@@ -27,7 +27,6 @@ public class DriveBaseSubsystem extends CustomSubsystemBase {
         rearRightMotor = hardwareMap.get(DcMotorEx.class, DriveBaseConstants.REAR_RIGHT_MOTOR_NAME);
 
         configureMotors();
-
     }
 
     private void configureMotors() {

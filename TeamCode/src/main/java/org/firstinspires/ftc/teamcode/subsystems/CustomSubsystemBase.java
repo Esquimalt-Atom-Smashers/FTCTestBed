@@ -8,10 +8,9 @@ import org.firstinspires.ftc.robotcore.external.Telemetry;
 import org.firstinspires.ftc.teamcode.Robot;
 
 public class CustomSubsystemBase extends SubsystemBase {
-
-    private Telemetry telemetry;
-    private HardwareMap hardwareMap;
-    private Robot robot;
+    private final Telemetry telemetry;
+    private final HardwareMap hardwareMap;
+    private final Robot robot;
 
     public CustomSubsystemBase(Telemetry telemetry, HardwareMap hardwareMap, Robot robot) {
         this.telemetry = telemetry;
